@@ -32,8 +32,9 @@
 
    <img width="180" height="28" alt="image" src="https://github.com/user-attachments/assets/52c54dfd-e384-4a2a-b09e-c2fd15e58f93" />
 
-5. **Подключиться в foxglove**
-   см. [Настройка foxglove](#настройка-foxglove)
+4. **Подключиться в foxglove**
+   
+   Для подключения выбрать в левом боковом меню *Open connection* и в разделе *ROS1* `http://ip_add:11311` заменить `ip_add` на ip дрона. см. [Настройка foxglove](#настройка-foxglove)
 
 ## Настройка foxglove
 **В случае, если подключение уже было совершено и ip адрес не изменился, на стартовой странице Foxglove в разделе *Recently viewed* будет отображается последние подключения с сохраненными параметрами отображения.**
