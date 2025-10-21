@@ -29,8 +29,8 @@
    ```
 3. **Проверить включение всех автостартов**
    Для проверки работы всех автостартов следует использовать команду `tmux attach` и проверить работу во вкладках *init* и *resp*.
-   
-   <img width="180" height="28" alt="image" src="https://github.com/user-attachments/assets/1b9ba6e5-bab9-4827-bf26-7ebd12cccdac" />
+
+   <img width="180" height="28" alt="image" src="https://github.com/user-attachments/assets/52c54dfd-e384-4a2a-b09e-c2fd15e58f93" />
 
 5. **Подключиться в foxglove**
    см. [Настройка foxglove](#настройка-foxglove)
@@ -39,16 +39,18 @@
 **В случае, если подключение уже было совершено и ip адрес не изменился, на стартовой странице Foxglove в разделе *Recently viewed* будет отображается последние подключения с сохраненными параметрами отображения.**
 1. Для добавления виджетов в активную область используйте *Add panel*
 
-   <img width="337" height="483" alt="image" src="https://github.com/user-attachments/assets/b85311ac-fbdb-4303-9256-effb95b05d46" />
+   <img width="259" height="112" alt="image" src="https://github.com/user-attachments/assets/09c6dfd2-6bd5-48c7-932c-0bb5d4becd8e" />
 2. Для отображения траектории в 2D в виджете *Plot* выставляем *X-axis value type*:**Message path** и устанавливаем следующие данные отображения
-<img width="328" height="311" alt="image" src="https://github.com/user-attachments/assets/4a42f836-4688-4868-8d05-61cce171c2c9" />
-<img width="510" height="473" alt="image" src="https://github.com/user-attachments/assets/223188c7-94ba-4da7-919b-898be72237d7" />
+
+<img width="321" height="39" alt="image" src="https://github.com/user-attachments/assets/58e50d19-c80a-468f-9b59-53c8baf1e528" /> 
+
+<img width="319" height="302" alt="image" src="https://github.com/user-attachments/assets/8cb31a0a-999a-4292-ae2d-4ead287d4808" /> <img width="510" height="473" alt="image" src="https://github.com/user-attachments/assets/7c51da13-6ea0-484b-ac22-31a9a1d78ae8" />
 
    Эти данные соответствуют следующему отображению по осям
 
-3. Для отображения траектории в 3D в виждете *3D* выставляем следующие параметры
+2. Для отображения траектории в 3D в виждете *3D* выставляем следующие параметры
 
-4. Для отображения выходных данных системы в виджете *Raw messages* можно подписаться на /udp
+3. Для отображения выходных данных системы в виджете *Raw messages* можно подписаться на /udp
    
 ## Перезапуск
 
